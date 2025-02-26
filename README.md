@@ -1,24 +1,24 @@
 # Text & IMAGE AI Video Generator
 
-This project converts a Text & Image into an **AI-generated video**, combining text-to-speech (TTS) and image-to-video synthesis.
-**SadTalker and Elevenlabs Are used in this project**
+- This project converts a Text & Image into an **AI-generated video**, combining text-to-speech (TTS) and image-to-video synthesis.
+- **SadTalker and Elevenlabs Are used in this project**
 
-## 📌 Features
+##  Features
 - Converts **text ** into speech using a TTS model.
 - Generates a **talking head video** by syncing an image with the generated audio.
 - Uses **pre-trained AI models** for realistic facial animation.
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
-### **1️⃣ Clone the Repository**
+### ** Clone the Repository**
 ```sh
 git clone https://github.com/dhineshx1/Audio-and-Image-to-Video
 cd Audio-and-Image-to-Video
 ```
 
-### **2️⃣ Install Dependencies**
+### ** Install Dependencies**
 ```
 
 
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 
 
-### **3️⃣ Download Required Models**
+### ** Download Required Models**
 Some pre-trained models were removed due to size constraints. Download them manually:
 
 - **Checkpoints (Facial Animation Model)**
@@ -62,7 +62,7 @@ your-repo/
 
 ---
 
-## 🔑 Setting Up ElevenLabs API Key
+## Setting Up ElevenLabs API Key
 This project uses **ElevenLabs TTS API** for text-to-speech conversion. To use it, you need an API key.
 
 ### **1️⃣ Get Your API Key**
@@ -81,7 +81,7 @@ api_key = "your_api_key_here"
 
 ---
 
-## 🛠 How to Use
+## How to Use
 
 ### **Run the main.py
 ```sh
@@ -94,7 +94,7 @@ This will:
 
 ---
 
-## 📌 Customization
+## Customization
 
 - **Modify the Reminder Text**  
   Edit the `main.py` file and change the `text` variable to generate reminders for different users.
@@ -104,7 +104,7 @@ This will:
 
 ---
 
-## 🔥 Troubleshooting
+##  Troubleshooting
 
 ### **Error: Missing Checkpoints or GFPGAN**
 - Make sure you downloaded the required models and placed them in the correct directories.
