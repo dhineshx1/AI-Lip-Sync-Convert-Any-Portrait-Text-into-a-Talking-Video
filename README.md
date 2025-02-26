@@ -13,19 +13,17 @@ This project converts a **text-based credit card reminder** into an **AI-generat
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/dhineshx1/Audio-and-Image-to-Video
+cd Audio-and-Image-to-Video
 ```
 
 ### **2️⃣ Install Dependencies**
 ```
-git clone https://github.com/OpenTalker/SadTalker.git
 
-cd SadTalker 
 
-conda create -n sadtalker python=3.8
+conda create -n venv python=3.8
 
-conda activate sadtalker
+conda activate venv
 
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
 
@@ -124,8 +122,10 @@ This will:
 
 
 ## **Acknowlegement**
-- We used SadTalker open source audio to video converter for this project .we appreciate the work.
-- SadTalker Link:https://sadtalker.github.io/
+- We used SadTalker open source audio to video converter for this project.we appreciate the work.
+- SadTalker Link: https://sadtalker.github.io/
+
+
 ## 📜 License
 This project is open-source under the **MIT License**.
 
