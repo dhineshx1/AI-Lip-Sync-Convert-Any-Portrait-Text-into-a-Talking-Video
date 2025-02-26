@@ -1,9 +1,10 @@
-# Credit Card Payment Reminder - AI Video Generator
+# Text & IMAGE AI Video Generator
 
-This project converts a **text-based credit card reminder** into an **AI-generated video**, combining text-to-speech (TTS) and image-to-video synthesis.
+This project converts a Text & Image into an **AI-generated video**, combining text-to-speech (TTS) and image-to-video synthesis.
+**SadTalker and Elevenlabs Are used in this project**
 
 ## 📌 Features
-- Converts **text reminders** into speech using a TTS model.
+- Converts **text ** into speech using a TTS model.
 - Generates a **talking head video** by syncing an image with the generated audio.
 - Uses **pre-trained AI models** for realistic facial animation.
 
@@ -122,7 +123,7 @@ This will:
 
 
 ## **Acknowlegement**
-- We used SadTalker open source audio to video converter for this project.we appreciate the work.
+- We used SadTalker open source audio to video converter for this project. we appreciate the work.
 - SadTalker Link: https://sadtalker.github.io/
 
 
