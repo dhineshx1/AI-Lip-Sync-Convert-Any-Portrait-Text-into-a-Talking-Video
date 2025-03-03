@@ -16,7 +16,7 @@
 
 | **Input (Text and Portrait Image)** | **Output (Lip-Synced Video)** |
 |----------------------------|--------------------------------|
-| ![Input Image](data/170.jpg.jpg) | ![Output Video](results/2025_03_03_23.10.12.mp4) |
+| ![Input Image](data\26pe45ko.png) | ![Output Video](results/2025_03_03_23.10.12.mp4) |
 
 
 ## Setup Instructions
