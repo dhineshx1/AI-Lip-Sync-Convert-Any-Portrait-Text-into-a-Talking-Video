@@ -23,12 +23,14 @@ class InferenceRunner:
         ]
 
         try:
-            subprocess.run(command, check=True)
+            path = subprocess.run(command, check=True)
             print("Inference completed successfully!")
             return True
+           
         except subprocess.CalledProcessError as e:
             print(f"Error during execution: {e}")
             return False
         except FileNotFoundError as e:
             print(f"Error: inference.py or Python executable not found. {e}")
             return False
+

@@ -89,9 +89,14 @@ def main(args):
     
     shutil.move(result, save_dir+'.mp4')
     print('The generated video is named:', save_dir+'.mp4')
+    
 
     if not args.verbose:
         shutil.rmtree(save_dir)
+        return False
+    
+    return save_dir+'.mp4'
+
 
     
 if __name__ == '__main__':
